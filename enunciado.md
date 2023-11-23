@@ -23,13 +23,27 @@
 La práctica se divide en tres ejercicios relacionados con una
 aplicación clásica, la lista de tareas o _TODO App_.
 
+  - Los ejercicios están enfocados a la realización de determinadas
+    partes de la aplicación, pero no tienes que desarrollar la
+    aplicación completa.
+  
   - Esta aplicación es un ejemplo clásico en el que la usuaria maneja
     una _lista de tareas_ con las típicas operaciones CRUD: añadir,
     ver, editar, borrar.
+
+  - Los items _todo_ de la lista registran la siguiente información:
+  
+    - Completada/activa. La tarea puede estar marcada como completada
+      o no. Diremos que las tareas que no están marcadas como
+      completadas están _activas_.
+	  
+    - Descripción. Un texto que describe la tarea.
 	
-    La aplicación se ha usado como ejemplo multitud de documentaciones
-	y tutoriales y también como base para la [comparación de distintos
-	_frameworks_](https://todomvc.com/).
+	- Fecha límite [opcional]. Fecha en que la tarea debe estar
+      completada.
+	  
+    - Descripción larga [opcional]. Texto libre que describe la tare
+      en mayor detalle, añade referencias a recursos, etc.
 	
   - Los casos de uso varían ligeramente de un ejemplo a otro. En esta
     práctica vamos a considerar exclusivamente los siguientes:
@@ -54,41 +68,36 @@ aplicación clásica, la lista de tareas o _TODO App_.
 	
 	- Borrar una tarea.
 	
-  - En algunos ejemplos la lista de casos de uso difiere ligeramente
-    de la lista del punto anterior. Por ejemplo podemos encontrar a
-    mayores un caso de uso "Ordenar por fecha límite". En esta
-    práctica dichas diferencias las ignoramos y únicamente tendremos
-    en cuenta la lista del punto anterior.
-
 
 <details id=1>
 <summary><h2>Ejercicio 1: Implementar la interfaz</h2></summary>
 
-En este ejercicio implementaras la parte correspondiente a la
-interfaz. No debes implementar ningún tipo de funcionalidad de la
+En este ejercicio implementaras únicamente la parte correspondiente a
+la interfaz. No debes implementar ningún tipo de funcionalidad de la
 aplicación.
 
 ### :wrench: Esta tarea tiene las siguientes partes:
 
-  1. Selecciona un diseño de la interfaz distinto al empleado en el
-     proyecto [TodoMVC](https://todomvc.com).
-	 
-	 ![Captura de pantalla de la interfaz TodoMVC](captura_todomvc.png)
+  1. Diseña la interfaz de la aplicación siguiendo estas pautas:
 
-     En la web podemos encontrar multitud de ejemplos de diseño para
-     una aplicación TODO, por ejemplo [60 Excellent To Do List App UI
-     Designs](https://bashooka.com/inspiration/to-do-list-app-ui-designs/).
-	 
-  2. Ajusta el diseño a la lista de casos de uso planteada en la
-     descripción.
+	 - La interfaz tiene que cubrir los casos de uso planteados en la
+       descripción de la práctica.
 
-     El diseño tiene que estar dirigido a dispositivos móviles, en
-     concreto a _smartphones_.
+     - El diseño tiene que estar dirigido a dispositivos móviles, en
+       concreto a _smartphones_.
+
+     - El diseño tiene que involucrar una único documento o página
+       web.
+
+	> En la web puedes encontrar multitud de ejemplos de diseño para
+    > una aplicación TODO que te pueden servir de guía. Por ejemplo
+    > [60 Excellent To Do List App UI
+    > Designs](https://bashooka.com/inspiration/to-do-list-app-ui-designs/).
 	 
 	 Añade al repositorio un fichero _PDF_ con el nombre
      `diseño-iu.pdf` donde se muestre el diseño que vas a implementar.
 
-  3. Implementa el diseño empleando los lenguajes _html5_ y _css3_
+  2. Implementa el diseño empleando los lenguajes _html5_ y _css3_
      siguiendo las pautas del W3C:
 	 
        - Usa html semántico.
@@ -138,6 +147,11 @@ académico actual.
 	 
 	 La implementación debe seguir las mismas pautas del ejercicio
      anterior.
+	 
+  3. Comprueba que efectivamente todas las características de los
+     lenguajes html y css que has empleado están implementadas en, al
+     menos, tres navegadores en versiones anteriores al comienzo del
+     curso académico.
 	 
 	 
 ### :books: Objetivos de aprendizaje:
