@@ -86,18 +86,18 @@ aplicación.
      - El diseño tiene que estar dirigido a dispositivos móviles, en
        concreto a _smartphones_.
 
-     - El diseño tiene que involucrar una único documento o página
+     - El diseño tiene que involucrar un único documento o página
        web.
 
-	> En la web puedes encontrar multitud de ejemplos de diseño para
-    > una aplicación TODO que te pueden servir de guía. Por ejemplo
-    > [60 Excellent To Do List App UI
-    > Designs](https://bashooka.com/inspiration/to-do-list-app-ui-designs/).
+	 En la web puedes encontrar multitud de ejemplos de diseño para una
+     aplicación TODO que te pueden servir de guía. Por ejemplo [60
+     Excellent To Do List App UI
+     Designs](https://bashooka.com/inspiration/to-do-list-app-ui-designs/).
 	 
-	 Añade al repositorio un fichero _PDF_ con el nombre
+  2. Añade al repositorio un fichero _PDF_ con el nombre
      `diseño-iu.pdf` donde se muestre el diseño que vas a implementar.
 
-  2. Implementa el diseño empleando los lenguajes _html5_ y _css3_
+  3. Implementa el diseño empleando los lenguajes _html5_ y _css3_
      siguiendo las pautas del W3C:
 	 
        - Usa html semántico.
