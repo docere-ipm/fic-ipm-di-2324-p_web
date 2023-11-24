@@ -18,7 +18,7 @@ Existe el diseño de la interfaz.
     | En el repositorio hay un pdf, pero contiene un diseño incompleto.
 
 
-    | En el repositorio hay un pdf y contine el diseño completo de la interfaz.
+    | En el repositorio hay un pdf y contiene el diseño completo de la interfaz.
 
 
 El diseño de la interfaz cubre los casos de uso.
@@ -38,7 +38,7 @@ El diseño es _mobile first_.
     | Se parte de un diseño para _smartphones_, pero no es adecuado para ese
     | tipo de dispositivos.
 
-    | Se parte de un diseño adpatado a las características de los _smartphones_.
+    | Se parte de un diseño adaptado a las características de los _smartphones_.
 
 
 El diseño es adaptativo.
@@ -47,10 +47,10 @@ El diseño es adaptativo.
     | dispositivo.
 
     | El diseño se adapta en cierta manera, pero no tiene en cuenta los cambios
-    | entre los dispositivos más dispares: smarphone vs tablet vs desktop.
+    | entre los dispositivos más dispares: smartphone vs tablet vs desktop.
 
     | El diseño se adapta a la configuración del dispositivo mejorando en
-    | en consonacia con las capacidades del dispositivo.
+    | en consonancia con las capacidades del dispositivo.
 
 
 ## Repositorio
@@ -59,10 +59,10 @@ Se ha realizado un control de versiones.
 
     | Existe un único commit o todos los commit se realizaron el mismo día.
     
-    | El número de commits es excaso y/o no refleja las versiones en la
+    | El número de commits es escaso y/o no refleja las versiones en la
     | evolución del desarrollo.
     
-    | Los commits del respositorio se corresponden con las versiones y los
+    | Los commits del repositorio se corresponden con las versiones y los
     | tiempos del desarrollo.
     
     
@@ -115,21 +115,21 @@ El documento es accesible.
 
     | No se usa html semántico y/o no se cumplen las normas WCAG.
 	
-	| El cumplimiento de las normas WCAG es excaso y/o se duplica la
+	| El cumplimiento de las normas WCAG es escaso y/o se duplica la
 	| información del html semántico.
 	
 	| Se cumplen las normas WCAG y el uso de html semántico contribuye
 	| a su cumplimiento.
 	
 
-La interface es accessible.
+La interfaz es accesible.
 
     | No se cumplen las normas WAI-ARIA.
 	
 	| Se cumplen en parte las normas WAI-ARIA, pero la accesibilidad frente
 	| a los cambios dinámicos del documento es pobre.
 	
-	| Se cumplen las normas WAI-ARIA y la accesibilidad de la interface
+	| Se cumplen las normas WAI-ARIA y la accesibilidad de la interfaz
 	| resultante es buena.
 
 
@@ -158,7 +158,7 @@ Implementación _cross browser_.
 	| los criterios establecidos en el enunciado.
 	
 	| Se ha comprobado el soporte en varios navegadores de las características
-	| de los lenguajes empleados en la implemtación, no existen bugs y se
+	| de los lenguajes empleados en la implementación, no existen bugs y se
 	| ajusta a los criterios establecidos en el enunciado.
 	
 
@@ -172,4 +172,4 @@ Vanilla javascript.
 	| No se han empleado librerías, pero se recurre a aspectos del lenguaje 
 	| obsoletos o poco eficientes.
 	
-	| No es han empleado librerías y se ha hecho un uso adecuado del lenguaje.
+	| No se han empleado librerías y se ha hecho un uso adecuado del lenguaje.
